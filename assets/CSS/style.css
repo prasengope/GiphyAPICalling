@@ -1,0 +1,130 @@
+body{
+    box-sizing: border-box;
+}
+
+#header {
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* #showDiv{
+    width: 960px;
+} */
+
+form{
+    justify-content: center;
+}
+
+label {
+	font-size: 18px;
+}
+
+.gifItem {
+    margin: 2px;
+}
+
+#search {
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Carrois Gothic SC", sans-serif;
+}
+
+#myButtons{
+    text-align: center;
+}
+
+#gifArea {
+	/* clear: both;  */
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 30px;
+}
+
+#searchText{
+    margin-right: 5px;
+}
+
+.thumbnail{
+   
+    float: left;   
+} 
+
+img{
+    /* position: relative; */
+    /* float: left; */
+    height: 240px;
+    width: 310px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+
+@media only screen and (max-width: 576px) {
+    #header{
+        width: 82%;
+    }
+    img {
+        width: 82%;
+        margin: 0;
+        padding: 0;
+        width: 280px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #myButtons{
+        text-align: center;
+    }
+    #addGif{
+        margin-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #header{
+        width: 90%;
+    }
+    img {
+        width: 82%;
+        margin: 0;
+        padding: 0;
+        width: 680px;
+        height: 480px;
+    }
+
+    #myButtons{
+        text-align: center;
+    }
+
+    #addGif{
+        margin-top: 10px;
+  }
+}
+
+/* @media only screen and (max-width: 992px) {
+    #header{
+        width: 95%;
+    }
+    img {
+        /* width: 82%; */
+        /* margin: 0;
+        padding: 0;
+        width: 680px;
+        height: 480px; */
+        /* width: 100%;
+        height: 600px;
+    } */
+    /* #myButtons{
+        text-align: center;
+    }
+
+    #addGif{
+        margin-top: 10px;
+  }
+} */ 
