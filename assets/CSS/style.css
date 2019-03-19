@@ -1,22 +1,18 @@
-body{
-    box-sizing: border-box;
+body {
+	box-sizing: border-box;
 }
 
 #header {
-    text-align: center;
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
-    font-family: "Carrois Gothic SC", sans-serif;
-    width: 80%;
-    margin: 0 auto;
+	font-family: "Carrois Gothic SC", sans-serif;
+	width: 80%;
+	margin: 0 auto;
 }
 
-/* #showDiv{
-    width: 960px;
-} */
-
-form{
-    justify-content: center;
+form {
+	justify-content: center;
 }
 
 label {
@@ -24,7 +20,7 @@ label {
 }
 
 .gifItem {
-    margin: 2px;
+	margin: 2px;
 }
 
 #search {
@@ -33,98 +29,47 @@ label {
 	font-family: "Carrois Gothic SC", sans-serif;
 }
 
-#myButtons{
-    text-align: center;
+#searchText {
+	margin-right: 5px;
+}
+
+#myButtons {
+	text-align: center;
 }
 
 #gifArea {
-	/* clear: both;  */
-    display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin-top: 30px;
+	width: 1024px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 20px;
 }
 
-#searchText{
-    margin-right: 5px;
+img {
+	height: 240px;
+	width: 310px;
 }
 
-.thumbnail{
-   
-    float: left;   
-} 
-
-img{
-    /* position: relative; */
-    /* float: left; */
-    height: 240px;
-    width: 310px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    margin-top: -15px;
+.thumbnail {
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 576px) {
-    #header{
-        width: 82%;
-    }
-    img {
-        width: 82%;
-        margin: 0;
-        padding: 0;
-        width: 280px;
-        height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media only screen and (max-width: 640px) {
+	#header {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+		height: 1000%;
+	}
 
-    #myButtons{
-        text-align: center;
-    }
-    #addGif{
-        margin-top: 10px;
-    }
-  }
+	#myButtons {
+		text-align: center;
+	}
 
-  @media only screen and (max-width: 768px) {
-    #header{
-        width: 90%;
-    }
-    img {
-        width: 82%;
-        margin: 0;
-        padding: 0;
-        width: 680px;
-        height: 480px;
-    }
-
-    #myButtons{
-        text-align: center;
-    }
-
-    #addGif{
-        margin-top: 10px;
-  }
+	#addGif {
+		margin-top: 10px;
+	}
 }
-
-/* @media only screen and (max-width: 992px) {
-    #header{
-        width: 95%;
-    }
-    img {
-        /* width: 82%; */
-        /* margin: 0;
-        padding: 0;
-        width: 680px;
-        height: 480px; */
-        /* width: 100%;
-        height: 600px;
-    } */
-    /* #myButtons{
-        text-align: center;
-    }
-
-    #addGif{
-        margin-top: 10px;
-  }
-} */ 
